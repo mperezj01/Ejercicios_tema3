@@ -15,7 +15,7 @@ public class Ejercicio2_tema3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int num1, num2, resultado;
+        int num1, num2, resultado;//Asigno 
         Scanner entrada = new Scanner(System.in);
         System.out.println("Por favor, introduzca un número: ");
         num1 = entrada.nextInt();
