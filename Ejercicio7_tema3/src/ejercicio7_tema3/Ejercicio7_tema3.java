@@ -40,6 +40,9 @@ public class Ejercicio7_tema3 {
         else{//si no es true, imprimo no laborable
             System.out.println("Has introducido un día no laborable.");
         }
+        if(diasemana>7){//Si el número introducido por el usuario es mayor que 7, nos dirá que no es válido
+            System.out.println("El numero introducido no es valido");
+        }
         // TODO code application logic here
     }
     

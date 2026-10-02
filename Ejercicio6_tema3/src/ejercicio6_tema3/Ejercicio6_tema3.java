@@ -18,7 +18,7 @@ public class Ejercicio6_tema3 {
         int nota;//Declaro la variable entera nota
         
         Scanner entrada = new Scanner(System.in);//Inicio el scanner como entrada
-        System.out.println("Por favor, introduzca la nota entre 0 y 10 del alumno: ");
+        System.out.println("Por favor, introduzca la nota del alumno: ");
         nota = entrada.nextInt();//Asigno el valor de entrada a la variable nota
         
         if(nota>=0&&nota<=4){//Pongo la condición de si nota es mayor o igual a 0 y menor o igual a 4, imprimo suspenso
@@ -32,6 +32,9 @@ public class Ejercicio6_tema3 {
         }
         else{//Si no, es sobresaliente
             System.out.println("Sobresaliente");
+        }
+        if(nota>10&&nota<0){
+            System.out.println("El valor introducido no es valido.");
         }
         
         // TODO code application logic here

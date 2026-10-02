@@ -23,12 +23,12 @@ public class Ejercicio8_tema3 {
         
         b50=dineroTotal/50;//Saco la cantidad de billetes de 50
         if(b50>0){//Si tengo mas de 0 billetes de 50, entonces imprimo
-            System.out.println("Billeter de 50: "+b50);
+            System.out.println("Billetes de 50: "+b50);
         }
-        dineroTotal%=50;
-        b20=dineroTotal/20;
+        dineroTotal%=50;//Saco el resto que queda después de quitar los billetes de 50, este %= es igual a dineroTotal=dineroTotal%50
+        b20=dineroTotal/20;//Saco la cantidad de billetes de 20 dividiendo el resto de los de 50 entre 20
         if(b20>0){//Si tengo mas de 0 billetes de 20 entonces imprimo
-            System.out.println("Billeter de 20: "+b20);
+            System.out.println("Billetes de 20: "+b20);
         }
         dineroTotal%=20;
         b10=dineroTotal/10;
