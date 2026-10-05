@@ -15,12 +15,12 @@ public class Ejercicio13_tema2 {
      */
     public static void main(String[] args) {
         
-        int i=11;
-        while(i<=133){
-            if(i%2==0){
+        int i=11;//Declaro la variable i con valor 11
+        while(i<=133){//Comiento el bucle, mientras i es menor o igual a 133...
+            if(i%2==0){//Si i es par, imprime i
                 System.out.println(i);
             }
-            i++;
+            i++;//...incremento de i en cada bucle
         }
         // TODO code application logic here
     }

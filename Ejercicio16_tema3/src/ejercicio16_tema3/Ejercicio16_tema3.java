@@ -14,13 +14,13 @@ public class Ejercicio16_tema3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int i=20, total=0;
-        while(i<161){
-            if(i%2==1){
-            total++;
+        int i=20, total=0;//Declaro las variables
+        while(i<161){//Mientras i sea menor a 161, es decir 160...
+            if(i%2==1){//Si i es impar
+            total++;//incrementamos el total de veces impreso cada vez que se imprime, contador
             System.out.println(i);
             }
-            i++;
+            i++;//Incrementamos el numero
         }
         
         System.out.println("La cantidad de numero impares impreso ha sido: "+total);

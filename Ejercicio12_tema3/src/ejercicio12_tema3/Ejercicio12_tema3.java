@@ -14,14 +14,14 @@ public class Ejercicio12_tema3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int i=11;
+        int i=11;//Declaro la variable i que vale 11
         
-        do{
-            if(i%2==0){
-            System.out.println(i);
+        do{//Inicio el bucle
+            if(i%2==0){//Pongo un condicional para coger los número pares, si el resto de dividir i entre 2 es 0, entonces...
+            System.out.println(i);//Imprimo i en pares
             }
-            i++;
-        }while(i<=133);
+            i++;//Incremento el valor de i con cada bucle
+        }while(i<=133);//El bucle dura hasta que i sea menor o igual que 133
         // TODO code application logic here
     }
     
