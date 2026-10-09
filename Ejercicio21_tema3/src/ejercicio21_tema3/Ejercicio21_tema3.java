@@ -27,10 +27,11 @@ public class Ejercicio21_tema3 {
             resultado = num1/num2;
         }
         catch(ArithmeticException e){
-            System.out.println("Error de operacion");
+            System.out.println("Error: "+e.getMessage());
         }
+        if(num2>0){
         System.out.println("El resultado es "+resultado);
-        
+        }
         
         
         

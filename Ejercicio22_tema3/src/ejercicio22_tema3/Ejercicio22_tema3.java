@@ -16,7 +16,7 @@ public class Ejercicio22_tema3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int num1, num2, resultado;
+        int num1, num2, resultado=0;
         Scanner entrada = new Scanner(System.in);
         
         try{
@@ -25,12 +25,12 @@ public class Ejercicio22_tema3 {
             System.out.println("Introduzca el segundo numero:");
             num2 = entrada.nextInt();
             resultado=num1+num2;
-            System.out.println("La suma de los numero introducidos es: "+resultado);
+            
         }
         catch(InputMismatchException e){
-            System.out.println("El valor introducido no es un numero");
+            System.out.println("Error: "+e.getMessage());
         }
-        
+        System.out.println("La suma de los numero introducidos es: "+resultado);
         // TODO code application logic here
     }
     
