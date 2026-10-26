@@ -3,8 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package ejercicio3_tema4;
-import java.util.Scanner;
-import numeroMayor.mayor;
+import java.util.Scanner;//Importo el Scanner del paquete java.util
+import numeroMayor.Mayor;//Importo el paquete numeromayor.Mayor
 
 /**
  *
@@ -16,16 +16,16 @@ public class Ejercicio3_tema4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int num1, num2, num3;
-        Scanner entrada = new Scanner(System.in);
+        int num1, num2, num3;//Declaro las variables como int
+        Scanner entrada = new Scanner(System.in);//Inicio el Scanner
         System.out.println("Por favor, introduzca el primer numero:");
-        num1 = entrada.nextInt();
+        num1 = entrada.nextInt();//Asigno la entrada del Scanner a las variables
         System.out.println("Ahora, introduzca el segundo numero: ");
         num2 = entrada.nextInt();
         System.out.println("Por ultimo, introduzca el tercer numero:");
         num3 = entrada.nextInt();
         
-        mayor.numeroMayor(num1, num2, num3);
+        Mayor.numeroMayor(num1, num2, num3);//Llamo al método numeromayor de la clase Mayor y le mando las variables
         
         // TODO code application logic here
     }

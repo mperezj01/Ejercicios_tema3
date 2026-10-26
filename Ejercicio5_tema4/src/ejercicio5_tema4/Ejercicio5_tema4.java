@@ -3,8 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package ejercicio5_tema4;
-import java.util.Scanner;
-import comparacion.calculos;
+import java.util.Scanner;//Importo el Scanner del paquete java.util
+import comparacion.calculos;//Importo calculos del paquete comparacion
 
 /**
  *
@@ -16,12 +16,12 @@ public class Ejercicio5_tema4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int numero;
-        Scanner entrada = new Scanner(System.in);
+        int numero;//Declaro la variable numero como entero
+        Scanner entrada = new Scanner(System.in);//Inicio el Scanner
         System.out.println("Por favor, introduzca un numero:");
-        numero = entrada.nextInt();
+        numero = entrada.nextInt();//Asigno la entrada del Scanner a la variable numero
         
-        calculos.parImpar(numero);
+        calculos.parImpar(numero);//Llamo al método parimpar de la clase calculos
         // TODO code application logic here
     }
     
